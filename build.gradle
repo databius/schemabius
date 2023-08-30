@@ -1,0 +1,14 @@
+plugins {
+    id "java"
+}
+
+group = "com.databius"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.apache.avro:avro-tools:1.11.2")
+}
